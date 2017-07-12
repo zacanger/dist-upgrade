@@ -12,7 +12,10 @@ Or use `npx` to avoid installing it globally: `npx dist-upgrade`.
 
 ## Usage:
 
-`dist-upgrade`
+```
+dist-upgrade    # update global Node and npm
+dist-upgrade -h # show this help
+```
 
 ## FAQ
 

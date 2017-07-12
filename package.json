@@ -19,12 +19,12 @@
   },
   "bugs": "https://github.com/zacanger/dist-upgrade/issues",
   "keywords": [
-    "npm",
     "dist-upgrade",
+    "n",
     "node",
+    "npm",
     "update",
-    "upgrade",
-    "n"
+    "upgrade"
   ],
   "dependencies": {
     "npx": "9.0.3"
