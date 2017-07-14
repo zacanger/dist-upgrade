@@ -2,7 +2,7 @@
 
 var cp = require('child_process')
 var path = require('path')
-var arg.trim() = process.argv[2]
+var arg = process.argv[2].trim()
 
 if (arg) {
   if (arg === '-h' || arg === '--help') {
