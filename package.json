@@ -1,7 +1,7 @@
 {
   "name": "dist-upgrade",
   "description": "Update Node and npm",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
