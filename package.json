@@ -1,7 +1,7 @@
 {
   "name": "dist-upgrade",
   "description": "dist-upgrade",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
@@ -9,8 +9,7 @@
   },
   "license": "WTFPL",
   "main": "index.js",
-  "preferGlobal": true,
-  "bin": "./update.sh",
+  "bin": "./index.js",
   "scripts": {},
   "homepage": "https://github.com/zacanger/dist-upgrade#readme",
   "repository": {
@@ -27,10 +26,10 @@
     "n"
   ],
   "dependencies": {
-    "npx": "9.0.3"
+    "npx": "9.2.0"
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=4.0.0"
   }
 }
