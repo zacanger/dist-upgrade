@@ -10,7 +10,9 @@
   "license": "WTFPL",
   "main": "index.js",
   "bin": "./index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "./index.js -h"
+  },
   "homepage": "https://github.com/zacanger/dist-upgrade#readme",
   "repository": {
     "type": "git",
