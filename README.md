@@ -1,18 +1,14 @@
 # dist-upgrade
 
-Update Node and npm.
+install latest global Node, npm, and npx
 
 --------
 
-## Installation:
-
-`npm i -g dist-upgrade`
-
-Or use `npx` to avoid installing it globally: `npx dist-upgrade`.
-
 ## Usage:
 
-`dist-upgrade`
+Recommended: `npx dist-upgrade`
+
+Or, if you want to install it globally, `npm i -g dist-upgrade`, then `dist-upgrade`.
 
 ## FAQ
 

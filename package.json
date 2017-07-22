@@ -1,6 +1,6 @@
 {
   "name": "dist-upgrade",
-  "description": "Update Node and npm",
+  "description": "Install latest global Node, npm, and npx",
   "version": "0.2.2",
   "author": {
     "name": "Zac Anger",
@@ -28,7 +28,7 @@
     "n"
   ],
   "dependencies": {
-    "npx": "9.2.0"
+    "npx": "9.4.1"
   },
   "devDependencies": {},
   "engines": {
