@@ -1,3 +1,4 @@
+* 0.4.0 - 30 September, 2017 - Echo versions after install
 * 0.3.0 - 22 July, 2017 - Now installs latest `npx` as well
 * 0.2.2 - 14 July, 2017 - Fix description in package.json
 * 0.2.1 - 14 July, 2017 - Fix misplaced `trim`

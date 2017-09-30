@@ -28,7 +28,7 @@
     "n"
   ],
   "dependencies": {
-    "npx": "9.4.1"
+    "npx": "9.6.0"
   },
   "devDependencies": {},
   "engines": {

@@ -15,7 +15,7 @@ if (arg) {
 
 var npxBin = path.join(__dirname, 'node_modules', '.bin', 'npx')
 
-cp.spawn(npxBin + ' n latest && npm i -g npm@next && npm i -g npx', [], {
+cp.spawn(npxBin + ' n latest && npm i -g npm@next && npm i -g npx && echo "node $(node -v); npm $(npm -v); npx $(npx -v)"', [], { // eslint-disable-line max-len
   stdio: 'inherit',
   shell: true
 })
