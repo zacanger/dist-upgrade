@@ -26,4 +26,4 @@ original version failed.
 
 ## License:
 
-[WTFPL](./LICENSE.md)
+[MIT](./LICENSE.md)
