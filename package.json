@@ -28,7 +28,7 @@
     "upgrade"
   ],
   "dependencies": {
-    "npx": "9.7.1"
+    "npx": "10.0.1"
   },
   "devDependencies": {},
   "engines": {
