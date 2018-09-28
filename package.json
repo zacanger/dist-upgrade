@@ -11,7 +11,9 @@
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
-    "test": "./index.js -h"
+    "test:lint": "eslint -c .eslintrc.json *.js",
+    "test:help": "./index.js -h",
+    "test": "run-s -s test:lint test:help"
   },
   "homepage": "https://github.com/zacanger/dist-upgrade#readme",
   "repository": {
@@ -28,9 +30,19 @@
     "upgrade"
   ],
   "dependencies": {
-    "npx": "10.0.1"
+    "npx": "10.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.6.0",
+    "eslint-config-zacanger": "3.4.1",
+    "eslint-plugin-babel": "5.2.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-unicorn": "6.0.1",
+    "npm-run-all": "4.1.3"
+  },
   "engines": {
     "node": ">=4.0.0"
   }
