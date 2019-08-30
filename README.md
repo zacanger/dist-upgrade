@@ -24,6 +24,4 @@ Huge thanks to [Kat Marchán](https://github.com/zkat) for basically writing thi
 in an [issue](https://github.com/zacanger/dist-upgrade/issues/1) when my
 original version failed.
 
-## License:
-
-[MIT](./LICENSE.md)
+[LICENSE](./LICENSE.md)
