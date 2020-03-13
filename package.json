@@ -31,11 +31,11 @@
     "upgrade"
   ],
   "dependencies": {
-    "npx": "10.2.0"
+    "npx": "10.2.2"
   },
   "devDependencies": {
     "npm-run-all": "4.1.5",
-    "sortpack": "2.0.1",
+    "sortpack": "2.1.1",
     "standard": "14.3.1"
   },
   "engines": {
