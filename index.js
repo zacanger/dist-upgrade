@@ -20,8 +20,9 @@ var npxBin = path.join(__dirname, 'node_modules', '.bin', 'npx')
 cp.spawn(
   npxBin +
     ' n latest && npm i -g npm@next && npm i -g npx && echo "node `node -v`; npm `npm -v`; npx `npx -v`"',
-  [], {
+  [],
+  {
     stdio: 'inherit',
-    shell: true
+    shell: true,
   }
 )
