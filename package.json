@@ -1,7 +1,7 @@
 {
   "name": "dist-upgrade",
   "description": "Install latest global Node, npm, and npx",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "author": {
     "email": "zac@zacanger.com",
     "name": "Zac Anger",
