@@ -2,6 +2,8 @@
 
 Install latest global Node, npm, and npx
 
+[Donate](https://ko-fi.com/zacanger)
+
 --------
 
 ## Usage:
